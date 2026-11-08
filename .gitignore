@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Инструменты
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Настройки приложения (если добавите сохранение состояния)
+.unicode_catalogue.json
+unicode_catalogue.json
+
+# Экспорт
+unicode_*.txt
+unicode_*.csv
+unicode_*.html
+
+# Сборка PyInstaller
+*.spec.bak
+
+# Другое
+ignore/
